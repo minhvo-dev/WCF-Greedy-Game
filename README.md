@@ -1,8 +1,10 @@
 # GREEDY GAME
 
-_The only things that I **regret** in doing this project are **the risks** that I did **not** want to **take**._   
+<p align="right">
+<em>The only things that I <strong>regret</strong> in doing this project are <strong>the risks</strong> that I did <strong>not</strong> want to <strong>take</strong>.</em>  
+</p>
 
-## Table of Content
+## Table of Contents
 - [Overview](#Overview)
 - [Game Instruction](#Game-Instruction)
 - [Installation](#Installation)
@@ -38,6 +40,8 @@ A short instruction and game play can be found at https://youtu.be/-BoNUtau978
   - GreedyGameLibrary project provides the library for both GreedyGameService and GreedyGameClient projects.
   - GreedyGameService project provides the service to host the game as a console application.
   - GreedyGameClient project provides the GUI to play the game as a desktop application.
+
+- Or, you can download and run this prebuilt package for Windows: [GreedyGame_Release_Executable.zip](./GreedyGame_Release_Executable.zip)
 
 ## Notes
 - The application is written in C#, targetting exclusively Windows platform.

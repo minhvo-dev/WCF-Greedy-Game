@@ -12,15 +12,15 @@
 - [Acknowledgement](#Acknowledgement)
 
 ## Overview
-- **Greedy Game** is a distributed application that implement ~~one of the most famous games of all time~~, the [Greedy Game](#Game-Instruction) 😉.
-- The application does not support, and does not need any chatting methods to operate.  
-- The application is designated to prevent all possible cheating methods, including _turning-off-your-opponent's-computer_ method.
+- **Greedy Game** is a distributed application that implement (~~one of the most famous games of all time~~) the [Greedy Game](#Game-Instruction) 😉.
+- The application does not support, and does not require any chatting methods to operate.  
+- The application is designated to prevent all possible cheating methods, including _turning-off-your-opponent's-computer_.
 
 ## Game Instruction
 A short instruction and game play can be found at https://youtu.be/-BoNUtau978
 
 - A greedy game requires 3 - 7 players.
-- There is a target score needed to be set before starting the game. The target score is used to determine when the game ends.
+- The target score requires to be set before starting the game. It is used to determine when the game ends.
 - In a round, each player is provided with the same set of cards. The number of cards is equal to the number of players divided by 2.
   - If the number of players is odd then the result is rounded up.  
   - The values of the cards are unique, starting from 1 and counting up by 1.
@@ -37,11 +37,11 @@ A short instruction and game play can be found at https://youtu.be/-BoNUtau978
 - Clone this repo
 - Change the settings in the `App.config` files in the [GreedyGameService](./GreedyGameService/App.config) and [GreedyGameClient](./GreedyGameClient/App.config) projects to accommodate your configuration.
 - Build the solution with Visual Studio, which requires .NET Framework 4.8.
-  - GreedyGameLibrary project provides the library for both GreedyGameService and GreedyGameClient projects.
-  - GreedyGameService project provides the service to host the game as a console application.
-  - GreedyGameClient project provides the GUI to play the game as a desktop application.
+  - **GreedyGameLibrary** project provides the **library** for both GreedyGameService and GreedyGameClient projects.
+  - **GreedyGameService** project provides the **service** to host the game as a console application.
+  - **GreedyGameClient** project provides the **GUI** to play the game as a desktop application.
 
-- Or, you can download and run this prebuilt package for Windows: [GreedyGame_Release_Executable.zip](./GreedyGame_Release_Executable.zip)
+- Or, you can download and run this release for Windows: [GreedyGame_Portable_v1.0.zip][release-v1.0]
 
 ## Notes
 - The application is written in C#, targetting exclusively Windows platform.
@@ -58,3 +58,4 @@ A short instruction and game play can be found at https://youtu.be/-BoNUtau978
 [wpf-link]: https://docs.microsoft.com/en-us/visualstudio/designers/getting-started-with-wpf?view=vs-2019
 [myth-and-roid-wiki]: https://en.wikipedia.org/wiki/Myth_%26_Roid
 [oxt-wiki]: https://en.wikipedia.org/wiki/OxT
+[release-v1.0]: https://github.com/minhvo-dev/WCF-Greedy-Game/releases/download/v1.0/GreedyGame_Portable_v1.0.zip
